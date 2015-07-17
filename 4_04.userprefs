@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MaruScript.cs">
+    <Files>
+      <File FileName="Assets/KabeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/TargetCreateScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/SphereScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/NetworkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets/ChangeColorScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/SpherePrefabScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/BatuScript.cs" Line="1" Column="1" />
+      <File FileName="Assets/MaruScript.cs" Line="34" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

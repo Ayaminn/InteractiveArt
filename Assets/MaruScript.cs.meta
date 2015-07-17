@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4d3c8e469da8a47c198f7ee17c93aaef
+timeCreated: 1436600674
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Prefab: {fileID: 186706, guid: b24f61bd694564100893e24e8b2bc30c, type: 2}
+  - Maru: {fileID: 137560, guid: 07c7769aa8ce34e2ebfd5680a328fcb3, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
