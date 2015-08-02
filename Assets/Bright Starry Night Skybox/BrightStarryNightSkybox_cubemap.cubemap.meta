@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: e525cd9d4af7c764f8097011bae2bdbb
+labels:
+- art
+- texture
+- material
+- skies
+- skybox
+- sky
+- cold
+- bright
+- starry
+- night
+- cubemap
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
