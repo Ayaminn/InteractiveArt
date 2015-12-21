@@ -1,4 +1,4 @@
-/*using UnityEngine;
+using UnityEngine;
 using System.Collections;
 /*
 Attach this script as a parent to some game objects. The script will then combine the meshes at startup.
@@ -84,4 +84,5 @@ public class CombineChildren : MonoBehaviour {
 			}
 		}	
 	}	
-}*/
+}
+*/
