@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b2c98dc9e922b44b5a36c9575067c572
+timeCreated: 1436600683
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Prefab: {fileID: 186706, guid: b24f61bd694564100893e24e8b2bc30c, type: 2}
+  - Batu: {fileID: 109756, guid: 0a46ec941632a4597a0953e1f8237590, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
