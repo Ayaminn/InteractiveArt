@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class PinkCreateCSV : MonoBehaviour {
+	
     private float timer = 0f;
     private RedManager redManager;
     private GameObject csvLoader;
@@ -16,10 +17,13 @@ public class PinkCreateCSV : MonoBehaviour {
 	
 	// Update is called once per frame
  	void Update () {
+		
         if (Time.time > (15f / redManager.bpm) * scoreNum && scoreNum < redManager.scoreData.Count) {
+			
             if (redManager.scoreData[scoreNum] == 1) {
-               Instantiate(musicball, new Vector3(0, 115, 1.1f), Quaternion.identity); // 
+               Instantiate(musicball, new Vector3(0, 115, 1.1f), Quaternion.identity);
             }
+
             scoreNum++;
         }
 	}

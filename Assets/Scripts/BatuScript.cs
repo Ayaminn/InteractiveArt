@@ -17,11 +17,8 @@ public class BatuScript : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision collision){
+		
 		if (collision.gameObject.tag == "ball") {
-			//Debug.Log ("ぼーる");
-			//Destroy (gameObject);
-			//花火生成
-			//Instantiate (Prefab, collision.contacts[0].point, Prefab.transform.rotation);
 			Destroy (collision.gameObject);
 			Destroy (Batu);
 		}
