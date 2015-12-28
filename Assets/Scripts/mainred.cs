@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class CubeRed : Photon.MonoBehaviour {
+public class mainred : Photon.MonoBehaviour {
 
 	public ParticleSystem par;
 	public PhotonView myPV ;

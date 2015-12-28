@@ -188,8 +188,6 @@
      <Compile Include="Assets\Scripts\BlueCreateCSV.cs" />
      <Compile Include="Assets\Scripts\BlueManager.cs" />
      <Compile Include="Assets\Scripts\BlueScript.cs" />
-     <Compile Include="Assets\Scripts\CubeBlue.cs" />
-     <Compile Include="Assets\Scripts\CubeRed.cs" />
      <Compile Include="Assets\Scripts\KabeScript.cs" />
      <Compile Include="Assets\Scripts\MaruScript.cs" />
      <Compile Include="Assets\Scripts\NetworkManager.cs" />
@@ -199,6 +197,8 @@
      <Compile Include="Assets\Scripts\SpherePrefabScript.cs" />
      <Compile Include="Assets\Scripts\SphereScript.cs" />
      <Compile Include="Assets\Scripts\TargetCreateScript.cs" />
+     <Compile Include="Assets\Scripts\mainblue.cs" />
+     <Compile Include="Assets\Scripts\mainred.cs" />
      <Compile Include="Assets\theNotes\Script\CamControl.cs" />
      <Compile Include="Assets\theNotes\Script\GUIConrtol_note.cs" />
      <Compile Include="Assets\theNotes\Script\NoteAnimatorControl.cs" />
