@@ -20,7 +20,7 @@ public class BlueCreateCSV : MonoBehaviour {
         if (Time.time > (15f / blueManager.bpm) * scoreNum && scoreNum < blueManager.scoreData.Count) {
 			
             if (blueManager.scoreData[scoreNum] == 1) {
-                Instantiate(musicball, new Vector3(-28.5f, 115, 1.1f), Quaternion.identity);
+                Instantiate(musicball, new Vector3(-28.5f, 120, 1.1f), Quaternion.identity);
             }
 
             scoreNum++;
