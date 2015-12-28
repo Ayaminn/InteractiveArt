@@ -73,6 +73,15 @@ public class mainblue : Photon.MonoBehaviour {
 		if(score % 3 == 0){
 			paryellow.transform.position = new Vector3 (ram, 10f, -20f);
 			paryellow.Play();
+		}else if(score % 4 == 0 && score % 3 != 0){
+			pargreen.transform.position = new Vector3 (ram, 10f, -20f);
+			pargreen.Play();
+		}else if(score % 5 == 0 && score % 4 != 0 && score % 3 != 0){
+			parred.transform.position = new Vector3 (ram, 10f, -20f);
+			parred.Play();
+		} else {
+			parblue.transform.position = new Vector3 (ram, 10f, -20f);
+			parblue.Play();
 		}
 	}
 }
