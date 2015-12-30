@@ -48,23 +48,23 @@ public class mainblue : Photon.MonoBehaviour {
 			blue.SetActive (false);
 			pink.SetActive (false);
 			yellow.SetActive (true);
-		}else if(score == 15){
+		}else if(score == 10){
 			blue.SetActive (true);
 			pink.SetActive (false);
 			yellow.SetActive (false);
-		}else if(score == 30){
+		}else if(score == 15){
 			blue.SetActive (false);
 			pink.SetActive (true);
 			yellow.SetActive (false);
-		}else if(score == 40){
+		}else if(score == 25){
 			blue.SetActive (true);
 			pink.SetActive (false);
 			yellow.SetActive (true);
-		}else if(score == 50){
+		}else if(score == 35){
 			blue.SetActive (true);
 			pink.SetActive (true);
 			yellow.SetActive (true);
-		}else if(score == 55){
+		}else if(score == 40){
 			blue.SetActive (false);
 			pink.SetActive (false);
 			yellow.SetActive (false);
