@@ -33,7 +33,6 @@ public class mainblue : Photon.MonoBehaviour {
 
 				if(obj == BlueHantei || obj == Onpu){
 					//score++;
-					Debug.Log("Good!");
 					Destroy(other.gameObject);
 					myPV.RPC("hanabi",PhotonTargets.All);
 					myPV.RPC("plus",PhotonTargets.All);
