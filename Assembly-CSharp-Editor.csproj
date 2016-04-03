@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{62F1704B-E8AF-8B66-E773-DAF06D702C55}</ProjectGuid>
+    <ProjectGuid>{0D102A9A-BD5E-FC79-CF34-70B0F421263D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_0;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_4;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -248,7 +248,7 @@
      <None Include="Assets\Japanese Scenery Set\Standard Assets\Water (Pro Only)\Water4\Sources\Shaders\FX-Water4.shader" />
      <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/Ayami_Imai/CDevelop/Unity_projects/4_04/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>/Users/Ayamin/Developer/InteractiveArt/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -275,25 +275,19 @@
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>/Users/Ayami_Imai/CDevelop/Unity_projects/4_04/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+ <HintPath>/Users/Ayamin/Developer/InteractiveArt/Assets/Photon Unity Networking/Editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Photon3Unity3D">
- <HintPath>/Users/Ayami_Imai/CDevelop/Unity_projects/4_04/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ <HintPath>/Users/Ayamin/Developer/InteractiveArt/Assets/Plugins/Photon3Unity3D.dll</HintPath>
  </Reference>
  <Reference Include="websocket-sharp">
- <HintPath>/Users/Ayami_Imai/CDevelop/Unity_projects/4_04/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
+ <HintPath>/Users/Ayamin/Developer/InteractiveArt/Assets/Plugins/WebSocket/websocket-sharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
- <Reference Include="UnityEditor.Android.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.iOS.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="UnityEditor.WebGL.Extensions">
- <HintPath>/Applications/Unity/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>/Applications/Unity/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
@@ -301,12 +295,15 @@
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
  </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>/Applications/Unity/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{492FE57F-7DDB-7D8A-BD36-743EA18CF15F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{ACAF85BB-7FF4-0787-7FA6-4B08D728B28F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{E3B27C90-18DB-6463-D78E-107D2AD1B1F8}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{5FEA3206-EE2E-C17D-EE67-6AF4EAA0CDD0}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
