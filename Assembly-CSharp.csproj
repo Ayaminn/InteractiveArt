@@ -188,6 +188,7 @@
      <Compile Include="Assets\Scripts\BlueCreateCSV.cs" />
      <Compile Include="Assets\Scripts\BlueManager.cs" />
      <Compile Include="Assets\Scripts\BlueScript.cs" />
+     <Compile Include="Assets\Scripts\DestroyThis.cs" />
      <Compile Include="Assets\Scripts\FireFlower.cs" />
      <Compile Include="Assets\Scripts\KabeScript.cs" />
      <Compile Include="Assets\Scripts\MaruScript.cs" />

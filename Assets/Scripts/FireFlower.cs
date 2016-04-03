@@ -23,24 +23,18 @@ public class FireFlower : MonoBehaviour {
 		if (timeleft <= 0.0) {
 			ramx = Random.Range (-6, 6);
 			ramt = Random.Range (0.5f, 5);
-			blue.SetActive (false);
-			pink.SetActive (false);
-			green.SetActive (false);
+//			blue.SetActive (false);
+//			pink.SetActive (false);
+//			green.SetActive (false);
 			timeleft = ramt;
 			if (ramh == 1) {
-				blue.SetActive (false);
-				pink.SetActive (false);
-				green.SetActive (true);
+				Instantiate (green);
 				green.transform.position = new Vector3 (ramx, 0, 0);
 			} else if (ramh == 2) {
-				blue.SetActive (false);
-				pink.SetActive (true);
-				green.SetActive (false);
+				Instantiate (pink);
 				pink.transform.position = new Vector3 (ramx, 0, 0);
 			} else if (ramh == 3) {
-				blue.SetActive (true);
-				pink.SetActive (false);
-				green.SetActive (true);
+				Instantiate (blue);
 				blue.transform.position = new Vector3 (ramx, 0, 0);
 			}
 		}
