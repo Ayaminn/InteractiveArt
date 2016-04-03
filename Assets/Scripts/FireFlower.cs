@@ -6,6 +6,7 @@ public class FireFlower : MonoBehaviour {
 	private float timeleft;
 	private float ramx;
 	private float ramh;
+	private float ramt;
 	public GameObject pink;
 	public GameObject blue;
 	public GameObject green;
@@ -21,10 +22,11 @@ public class FireFlower : MonoBehaviour {
 		ramh = Random.Range (1, 3);
 		if (timeleft <= 0.0) {
 			ramx = Random.Range (-6, 6);
+			ramt = Random.Range (0.5f, 5);
 			blue.SetActive (false);
 			pink.SetActive (false);
 			green.SetActive (false);
-			timeleft = 5.0f;
+			timeleft = ramt;
 			if (ramh == 1) {
 				blue.SetActive (false);
 				pink.SetActive (false);
